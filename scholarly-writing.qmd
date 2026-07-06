@@ -1,0 +1,38 @@
+---
+title: "An example scholarly article"
+date: today
+author:
+  - name: First Last
+    orcid: 0000-0000-0000-0000
+    email: me@web.org
+    affiliation: 
+      - name: ETH Zurich
+        url: https://ethz.ch/de.html
+abstract: 
+  The abstract will be placed here. Breaks can be added by hitting return on the keyboard.
+license: "CC BY"
+citation: 
+  container-title: My Blog
+  url: https://www.example.com
+bibliography: references.bib
+csl: apa.csl
+editor: visual
+---
+
+## Scholarly writing
+
+Scholarly articles require much more detail in their front matter than simply a title and an author. Quarto provides a rich set of YAML metadata keys to describe these details. You can copy & paste from this example to your own report.
+
+## Task: Citations
+
+1.  Add the citation key for the paper "'My flight arrives at 5 am, can you pick me up?': The gatekeeping burden of the african academic" as an in-text reference to the sentence below
+
+In \_\_\_, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
+
+2.  Add the citation key for the paper "'The rich will always be able to dispose of their waste': a view from the frontlines of municipal failure in Makhanda, South Africa" as a citation at the end of the sentence below.
+
+Inequality underpins waste management systems, structuring who can or cannot access services \_\_\_.
+
+## Bibliographies
+
+This folder already contains a `references.bib` file. One way of creating and adding to this file is by using the RStudio Visual Editor mode. Another way is by exporting a collection in Zotero reference management tool.
